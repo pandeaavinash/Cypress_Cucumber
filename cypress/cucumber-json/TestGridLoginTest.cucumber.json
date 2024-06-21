@@ -1,0 +1,79 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login into the site with valid data",
+    "line": 1,
+    "id": "login-into-the-site-with-valid-data",
+    "tags": [],
+    "uri": "TestGridLoginTest.feature",
+    "elements": [
+      {
+        "id": "login-into-the-site-with-valid-data;login-into-the-application-with-valid-data",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Login into the application with valid data",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I navigate to the Website",
+            "result": {
+              "status": "passed",
+              "duration": 12261000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on Sign In Link",
+            "result": {
+              "status": "passed",
+              "duration": 4580000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "validpassword"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "xxxxxx@gmail.com",
+                      "xxxxx@1234"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I entered valid credential",
+            "result": {
+              "status": "passed",
+              "duration": 1267000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Click on sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 293000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
