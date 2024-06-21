@@ -14,8 +14,3 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           command: npm run run-test
-
-        - name: Cypress run
-        uses: cypress-io/github-action@v6
-        with:
-          command: npm run generate-report
