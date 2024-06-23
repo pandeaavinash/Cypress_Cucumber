@@ -22,7 +22,7 @@
             "name": "I navigate to the Website",
             "result": {
               "status": "passed",
-              "duration": 12261000000
+              "duration": 11385000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I click on Sign In Link",
             "result": {
               "status": "passed",
-              "duration": 4580000000
+              "duration": 6052000000
             }
           },
           {
@@ -59,7 +59,7 @@
             "name": "I entered valid credential",
             "result": {
               "status": "passed",
-              "duration": 1267000000
+              "duration": 1286000000
             }
           },
           {
@@ -69,7 +69,7 @@
             "name": "Click on sign in button",
             "result": {
               "status": "passed",
-              "duration": 293000000
+              "duration": 202000000
             }
           }
         ]
