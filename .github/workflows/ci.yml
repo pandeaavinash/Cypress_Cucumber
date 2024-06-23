@@ -13,7 +13,4 @@ jobs:
         with:
           command: npm run run-test
           command: npm run generate-report      
-        uses: actions/upload-artifact@v4
-        with:
-      - name: my-artifact
-        path: cypres/reports/html
+       
