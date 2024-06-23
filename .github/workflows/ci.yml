@@ -12,5 +12,4 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           command: npm run run-test
-          command: npm run generate-report      
-       
+          command: npm run generate-report
