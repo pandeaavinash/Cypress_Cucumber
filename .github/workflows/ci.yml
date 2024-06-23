@@ -20,4 +20,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
       - name: cypress-cucumber-report
-        path: Cypress_Cucumber/Cypress_Cucumber/cypress/reports/multiple-cucumber-html-report-html/
+        path: cypress/reports/multiple-cucumber-html-report-html/
