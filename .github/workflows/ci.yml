@@ -18,6 +18,7 @@ jobs:
       
       - name: Upload report
         uses: actions/upload-artifact@v2
+        if: always()
         with:
       - name: cypress-cucumber-report
-        path: cypress/reports/multiple-cucumber-html-report
+        path: cypress/reports/html
